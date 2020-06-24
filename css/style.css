@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+img {
+    vertical-align: middle;
+}
+ul, ol{
+    list-style-type: none;
+}
+a, a:hover{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,input,button,ul,ol,p{
+    margin: 0;
+    padding:0;
+}
+p{  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/*   header part start*/
+
+#header_part{
+    background: darkblue;
+}
+/*   header part End*/
+/*   nav bar start*/
+.navbar-light .navbar-nav .nav-link{
+    transition: all linear .2s;
+    padding:10px 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background:darkblue;
+    color: white;
+    border-radius: 7px;
+}
+
+/*   nav bar End*/
+/*  Banner part Start*/
+
+/*  Banner part End*/
+
+/*  artical part Start*/
+.artical_content{
+    border-bottom: 2px solid black;
+}
+#artical_part{
+    padding-top: 30px;
+    background:lightblue;
+}
+#artical_part .artical_content h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform:uppercase ;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+#artical_part .artical_content
+p{
+        font-size:14px;
+        color:black;
+        padding-bottom: 30px;
+}
+
+
+/*  artical part End*/
+/*  service part start*/
+#service_part{
+    padding-top: 30px;
+}
+#service_part .ser_heading h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    font-size: 28px;
+    text-transform:uppercase ;
+    padding-bottom: 25px;
+    letter-spacing: 20px;
+    word-spacing: 15px;
+}    
+#service_part .ser_main h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    font-size: 28px;
+    text-transform:uppercase ;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    letter-spacing: 10px;
+}
+#service_part .ser_main p{
+    padding-bottom: 40px;
+    color: black;
+}
+#service_part .ser_main a{
+    padding:10px 15px;
+    border:1px solid darkslateblue;
+    border-radius: 7px;
+    transition: all ease .7s;
+}
+#service_part .ser_main a:hover{
+    background: darkslateblue;
+    color: floralwhite;
+}
+#service_part .ser_main img{
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all ease .9s;
+
+}
+#service_part .ser_main img:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*  service part End*/
